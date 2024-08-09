@@ -29,7 +29,7 @@ else:
     print( die1, die2)
     print(total)
             
-#code from here is not executed  
+
 
     while not total == 7 and total == playerPoint:
         
@@ -42,12 +42,12 @@ else:
 
 
      
-    else:
-      if total == 7: 
+
+    if total == 7: 
         print( 'Player rolled',die1,'+',die2, ' = ',total)
         print('You lose!')
               
-      elif total == playerPoint:
+    else:
         print( 'Player rolled',die1,'+',die2, ' = ',total)
         print('You win!')
 
