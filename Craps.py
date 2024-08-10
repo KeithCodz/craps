@@ -29,7 +29,7 @@ else:
     print( die1, die2)
     print(total)
             
-
+# not executed from here
 
     while not total == 7 and total == playerPoint:
         
